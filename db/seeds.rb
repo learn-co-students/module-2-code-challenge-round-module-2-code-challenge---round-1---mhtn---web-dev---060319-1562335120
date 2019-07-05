@@ -21,3 +21,7 @@ Restaurant.create!([{
   name: "San Matteo NYC",
   address: "1559 2nd Ave, New York, NY 10028"
 }])
+
+Pizza.create!(name: "cheesy", ingredients: "cheese", restaurant_id: 19)
+Pizza.create!(name: "peppy", ingredients: "pepperoni", restaurant_id: 20)
+Pizza.create!(name: "anchy", ingredients: "anchovies", restaurant_id: 21)
